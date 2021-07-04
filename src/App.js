@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Contain from './Contain';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="top_box">
+        <img src="http://recsonbhadra.ac.in/assets/img/Name11.png" alt="no"/ >
+        <h6 style={{color:'white'}}>An AICTE Approved Government Engineering College, Affiliated to AKTU Lucknow</h6>
     </div>
+    <div className="top_box_two">
+      <button ><a href="http://recsonbhadra.ac.in/">🏠 HOME</a></button>
+    </div>
+    <Contain/>
+    </>
   );
 }
 

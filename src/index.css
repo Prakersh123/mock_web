@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img{
+  position: relative;
+}
+h6{
+  position: relative;
+  bottom: 30px;
+  left: 95px;
+  /* display: inline-block; */
+  width: 80%;
+}
+.top_box{
+  /* height: 200px; */
+  background-color: #991D1F;
+  padding-top: 5%;
+}
+@media screen and (max-width: 585px) {
+    img{
+      width: 80%;
+    }
+    .top_box{
+      /* height: 180px; */
+      background-color: #991D1F;
+      padding-top: 5%;
+    }
+    h6{
+      position: relative;
+      bottom: 10px;
+      left: 10%;
+      /* display: inline-block; */
+      width: 80%;
+      font-size: 8px;
+    }
+    
+
+}
+@media screen and (max-width: 258px) {
+  img{
+    width: 80%;
+  }
+  .top_box{
+    /* height: 180px; */
+    background-color: #991D1F;
+    padding-top: 5%;
+  }
+  h6{
+    position: relative;
+    bottom: 7px;
+    left: 12%;
+    /* display: inline-block; */
+    width: 80%;
+    font-size: 6px;
+  }
+  
+
+}
+
+.top_box_two{
+  text-align: center;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 361px) {
+  img{
+    width: 80%;
+  }
+  .top_box{
+    /* height: 180px; */
+    background-color: #991D1F;
+    padding-top: 5%;
+  }
+  h6{
+    position: relative;
+    bottom: 7px;
+    left: 12%;
+    /* display: inline-block; */
+    width: 80%;
+    font-size: 6px;
+  }
+  
+    /* a{
+      font-size: 70%;
+    } */
+    button{
+      text-align: left;
+    }
+}
